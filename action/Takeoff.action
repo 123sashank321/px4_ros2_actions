@@ -1,0 +1,14 @@
+# Goal
+float32 pitch  # FW pitch (param1)
+float32 yaw    # Yaw angle (param4)
+float64 latitude # param5
+float64 longitude # param6
+float32 altitude # param7
+---
+# Result
+bool outcome
+string message
+---
+# Feedback
+float32 current_altitude
+string state

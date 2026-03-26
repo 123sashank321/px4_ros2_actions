@@ -1,0 +1,23 @@
+<package format="3">
+  <name>px4_ros2_actions</name>
+  <version>0.0.0</version>
+  <description>PX4 ROS2 Actions Package</description>
+  <maintainer email="sashank.erukala@theskytex.com">hakkam</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>px4_msgs</depend>
+  <depend>rosidl_default_generators</depend>
+  <depend>action_msgs</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

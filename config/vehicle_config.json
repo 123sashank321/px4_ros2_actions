@@ -1,0 +1,26 @@
+{
+    "vehicle": {
+        "type": "VTOL",
+        "mc": {
+            "default_takeoff_altitude": 50.0,
+            "climb_rate": 2.5,
+            "descent_rate": 1.0,
+            "altitude_tolerance": 0.3
+        },
+        "fw": {
+            "takeoff_pitch": 15.0,
+            "min_takeoff_airspeed": 12.0,
+            "approach_altitude": 50.0,
+            "flare_altitude": 10.0,
+            "altitude_tolerance": 0.5
+        },
+        "vtol": {
+            "mc_takeoff_altitude": 30.0,
+            "transition_altitude": 50.0,
+            "auto_transition": true,
+            "mc_climb_rate": 2.5,
+            "transition_timeout": 10.0,
+            "altitude_tolerance": 0.3
+        }
+    }
+}

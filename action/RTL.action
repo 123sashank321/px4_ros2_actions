@@ -1,0 +1,13 @@
+# RTL (Return to Launch) Action
+# Commands the vehicle to return to home position and land
+
+# Goal - currently no parameters needed (uses stored home position)
+---
+# Result
+bool outcome     # True if RTL completed successfully
+string message   # Status message
+---
+# Feedback
+float32 distance_to_home  # Distance to home position in meters
+float32 current_altitude  # Current altitude in meters
+string state              # Current state (e.g., "Returning", "Descending", "Landing")
