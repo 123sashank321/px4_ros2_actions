@@ -1,0 +1,9 @@
+# Goal
+string mode_name # "MANUAL", "ALTITUDE", "POSITION", "MISSION", "HOLD", "RTL", "OFFBOARD"
+---
+# Result
+bool outcome
+string message
+---
+# Feedback
+string current_mode
